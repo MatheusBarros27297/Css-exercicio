@@ -8,17 +8,20 @@ body .produtos {
   display: flex;
 }
 body .produtos__item {
-  background-color: #fffbbd;
+  background-color: #fffcd8;
   border: 3px solid #000000;
   border-radius: 20px;
   padding: 15px;
   margin: 10px;
   text-align: center;
 }
-body .produtos__item--em-destaque {
-  background-color: #f5eded;
-  border-color: #0004ff;
-  border-radius: 18px;
+body .produtos__item-produto--em-destaque {
+    background-color: #fff019;
+    border: 3px solid #0011ff;
+    border-radius: 20px;
+    padding: 15px;
+    margin: 10px;
+    text-align: center;
 }
 body .produtos__imagem {
   max-width: 100%;
